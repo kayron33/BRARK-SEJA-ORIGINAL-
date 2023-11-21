@@ -3,11 +3,99 @@
 :root{
 
     --color-1:#8C3545;
-    --color-1:#8C3535;
-    --color-1:#732C2C;
-    --color-1:#A68181;
-    --color-1:#F2F2F2;
+    --color-2:#8C3535;
+    --color-3:#732C2C;
+    --color-4:#A68181;
+    --color-5:#F2F2F2;
 }
 /**header**/
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 100px;
+}
+.heder,
+.paginas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.heder{
+    background-color: var();
+    box-shadow: 1px 1px 4px var(--color-3);
+    height: 3.5em;
+    justify-content: space-between;
+    padding: 0 10%;
+    
+}
+.paginas{
+    gap: 4em;
+    
+
+}
+.paginas a{
+text-decoration: none;
+color: var(--color-4) ;
+transition: 1s;
+font-weight: bold;
+}
 
 
+
+
+
+
+
+
+
+.inicio{
+    background-color: var(--color-3);
+
+   
+    
+}
+.inicio>h1{
+    background-color: #0D0D0D;
+    color: #EAF205;
+    width: 44vh;
+    text-align: center;
+   
+
+}
+.botão{
+    background-color: transparent;
+    border: none;
+    color: var(--color-4);
+    cursor: pointer;
+    display: none;
+
+}
+@media (max-width: 768px) { 
+    .botão{
+        display: block;
+    }
+    .paginas{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background-color: var(--color-1);
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+
+
+    }
+}
+@keyframes showSidebar {
+from{margin-left: -100vw;}
+ top{margin-left: -10vw;} 
+}
+
+/** materiais 
