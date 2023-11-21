@@ -99,3 +99,20 @@ from{margin-left: -100vw;}
 }
 
 /** página**/
+main{
+    width: 100% ; 
+}
+
+
+.produto{
+    display: flex;
+    background-repeat: no-repeat;
+
+    
+
+}
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
