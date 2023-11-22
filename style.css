@@ -101,4 +101,17 @@ main{
 .produto{
     margin-bottom: 20px;
     cursor: pointer;
+    box-shadow: 1px 1px 4px var(--color-3);
+}
+.produto p{
+    margin: 0px;
+    text-align: center;
+}
+.produto a{
+    background-color: var(--color-3);
+    background-color: #732C2C;
+    color: white;
+ display: flex;
+ justify-content: center;
+    
 }
