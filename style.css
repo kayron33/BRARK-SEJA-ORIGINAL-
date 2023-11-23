@@ -122,22 +122,9 @@ main{
 }
 
 /**Aba da hora de comprar**/
-.contato{
-    background-color: var(--color-2);
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
+.pagar{
+    
 }
-.contato h1{
-    text-align: center;
-}
-.contato p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-}
-.entrega{
-    font-size: 32px;
-} 
-
 
 
 
