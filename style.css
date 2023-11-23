@@ -123,6 +123,15 @@ main{
 
 /**Aba da hora de comprar**/
 .pagar{
+    background-color: var(--color-5);
+    color: black;
+
+}
+.pagar h1{
+    font-size: 30px;
+}
+.pagar p{
+    font-size: 25px;
     
 }
 
